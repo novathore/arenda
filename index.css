@@ -1,0 +1,31 @@
+body {
+  font-family: "Lato", Sans-Serif, serif;
+  background-color: #d7e3fa;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.wrapper {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
+  width: 60%;
+  font-size: 20px;
+}
+
+.header {
+  font-size: 30px;
+  text-align: center;
+  padding: 0 30px 30px 30px;
+  width: 80%;
+}
+
+.wrapper + .wrapper {
+  margin-top: 40px;
+}
